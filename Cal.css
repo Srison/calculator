@@ -1,0 +1,31 @@
+body{background-size:100% 140%; background-repeat: no-repeat; background-attachment: fixed;
+    background-position: 180%; rotate:-3deg; margin-top: 5%}
+
+.container{height:100%; display:flex; justify-content:left; align-items:center; margin-left:290px;
+    }
+
+.Calculator{padding:1px ; display:grid; 
+    grid-template-columns:repeat(4,60px); border-radius: 30px; 
+    box-shadow: inset 5px 5px 5px whitesmoke;}
+
+button{padding:4px; height:50px; weight:50px; border-radius:20px; border:solid; background-color:gold; box-shadow:5px 5px 12px black;
+    margin:8px;
+    font-weight:bolder}
+
+input{grid-column:span 4; height:70px; font-size: xx-large; font-weight: bolder; width:95%;
+ border-radius:15%;box-shadow: inset 5px 5px 12px black, inset -5px -5px 12px black; 
+ text-align:end; padding:2px}
+
+#equal{ margin-left:90%; width:115px; border-radius:40px; background-color:orangered; font-size: large}
+
+h3{font-family: "jokerman"; color:black ;  margin-top:30px;}
+
+.circle{height:20%; width:30%; ;background-color:black; border-radius:100%; 
+margin-left:189%}
+
+.cir1{height:10%; width:10%; background-color:gray; border-radius: 100px; 
+    padding:4px; margin:4px}
+
+.square{height:50%; width:10%; border-radius:30%; background-color: orangered;
+    margin-top:70%; margin-left:220%}
+
